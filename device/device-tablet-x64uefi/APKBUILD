@@ -7,7 +7,7 @@ url="https://postmarketos.org"
 license="MIT"
 arch="x86_64"
 options="!check !archcheck"
-depends="nebula-base linux-vanilla mesa-dri-swrast gummiboot"
+depends="postmarketos-base linux-vanilla mesa-dri-swrast gummiboot"
 makedepends="devicepkg-dev gummiboot"
 source="
 	deviceinfo

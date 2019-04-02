@@ -6,7 +6,7 @@ url="https://postmarketos.org"
 arch="noarch"
 license="GPL3+"
 depends="
-	alpine-base
+	nebula-base
 	dbus
 	chrony
 	cryptsetup

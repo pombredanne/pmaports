@@ -5,7 +5,7 @@ FIRMWARE_DIRS="/lib/firmware /lib/firmware/postmarketos"
 exec >>/var/log/firmwareload.log 2>&1
 
 if [ ! -e "/sys/$DEVPATH/loading" ]; then
-    echo "firmware loader misses sysfs directory"
+    echo "Firmware loader misses sysfs directory"
     exit 1
 fi
 
